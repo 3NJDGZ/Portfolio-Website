@@ -98,11 +98,15 @@ ul {
 }
 
 /*lebron picture*/
+.figure {
+    background-color: var(--dark-gray);
+}
+
 #lebron {
     padding: 5px;
     max-width: 100%;
     height: 100%;
-    width: 50%;
+    width: 100%;
     object-fit: cover;
     margin: auto;
     border: 3pt solid var(--deep-purple);
@@ -122,11 +126,11 @@ ul {
     align-items: center;
     gap: 5%;
     margin: 0 auto;
-    /*flex-wrap: wrap;*/.
+    /*flex-wrap: wrap;*/
 }
 
 .text-container {
-    width: 75%;
+    width: 150%;
     margin: 0;
 }
 
